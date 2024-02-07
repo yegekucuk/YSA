@@ -1,0 +1,1 @@
+The folders in this folder contain accuracies of each epoch separately.

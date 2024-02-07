@@ -1,0 +1,37 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten (Flatten)           (None, 22014)             0         
+                                                                 
+ dense (Dense)               (None, 7338)              161546070 
+                                                                 
+ dense_1 (Dense)             (None, 7338)              53853582  
+                                                                 
+=================================================================
+Total params: 215,399,652
+Trainable params: 215,399,652
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/5
+548/548 [==============================] - 290s 528ms/step - loss: 8.7140 - accuracy: 0.0782 - val_loss: 8.2960 - val_accuracy: 0.0815
+Epoch 2/5
+548/548 [==============================] - 305s 558ms/step - loss: 7.5994 - accuracy: 0.0800 - val_loss: 7.1079 - val_accuracy: 0.0815
+Epoch 3/5
+548/548 [==============================] - 306s 558ms/step - loss: 6.9063 - accuracy: 0.0800 - val_loss: 6.7338 - val_accuracy: 0.0815
+Epoch 4/5
+548/548 [==============================] - 299s 546ms/step - loss: 6.6676 - accuracy: 0.0800 - val_loss: 6.5825 - val_accuracy: 0.0815
+Epoch 5/5
+548/548 [==============================] - 295s 538ms/step - loss: 6.5473 - accuracy: 0.0800 - val_loss: 6.4963 - val_accuracy: 0.0815
+
+
+Parameters:
+
+Num of films: 3
+Window size: 3
+Epochs: 5
+Batch size: 64
+
+
+
+This model can't learn. 
